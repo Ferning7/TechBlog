@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #e6e6e6;
+}
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 28px;
+}
+
+.navbar ul{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+section{
+    padding: 10%;
+    margin: 11px 95px ;
+    background-color: white;
+}
