@@ -3,44 +3,88 @@
     padding: 0;
     outline: 0;
     box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
 }
 
 body {
-    font-family: 'Times New Roman', Times, serif;
     background-color: #e6e6e6;
+    color: #333;
 }
 
 .navbar {
-    background-color: rgb(255, 255, 255);
+    background: #ffffff;
     height: 60px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 30px;
+    box-shadow: 0 0 5px #000;
 }
 
-.navbar ul{
-    display: flex;
-    align-items: center;
-    list-style: none;
-    margin-right: 28px;
-}
-
-.navbar ul{
-    text-decoration: none;
-    color: black;
-    padding: 20px;
-}
-
-
-
-.logo{
+.navbar #logo {
     font-size: 24px;
     font-weight: bold;
 }
 
-section{
-    padding: 10%;
-    margin: 11px 95px ;
-    background-color: white;
+.navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    transition: background 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    background: #e6e6e6;
+}
+
+.posts {
+    padding: 20px 95px;
+    margin-bottom: 30px;
+}
+
+#tecblog{
+    text-decoration: none;
+    color: inherit;
+}
+ 
+.post {
+    background: #ffffff;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 0 5px #000;
+}
+
+.post h2 {
+    color: #9acd32;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.post p {
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.post img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.post span {
+    display: block;
+    color: #888;
+    margin-top: 10px;
+    font-style: italic;
+    clear: both;
 }
